@@ -1,14 +1,14 @@
 /*
 File: concordance.h
-description: 
+description: The class for the concordance
 Author: Lucas Sowers
 Email: lucass4918@student.vvc.edu
 Date Created: 12/15/18
 */
 
-#ifndef CONCORDANCE_H
+        #ifndef CONCORDANCE_H
 	#define CONCORDANCE_H
-	#include "word.h"
+        #include "word.h"
 	#include <iostream>
 	#include <fstream>
 	#include <string>
@@ -34,3 +34,4 @@ Date Created: 12/15/18
 	
 
 #endif
+

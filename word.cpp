@@ -1,15 +1,15 @@
 /*
 file: word.cpp
-Description: 
+Description: Counts the words 
 Author: LucasSowers
 Email: lucass4918@student.vvc.edu
 Date Created: 12/1518 
 */
 
-#include<iostream>
-#include "word.h"
+    #include<iostream>
+    #include "word.h"
 
-using namespace std;	
+    using namespace std;	
 
 	Word::Word()
     {

@@ -1,11 +1,10 @@
 /*
 File: concordance.cpp
-description: 
+description:creates the concordance 
 Author: Lucas Sowers
 Email: lucass4918@student.vvc.edu
 Date Created: 12/15/18
 */
-
 #include "concordance.h"
 	
 
@@ -50,7 +49,7 @@ Date Created: 12/15/18
 	            break;
 	        if(!is_whitespace(c))
 	        {
-	            input.putback(c); // this will put the character back on the input stream
+	            input.putback(c); // Puts characters back on input stream
 	            break;
 	        }
 	    }
@@ -82,7 +81,7 @@ Date Created: 12/15/18
 
 	int Concordance::find_word(std::string word)
 	{
-	    // search the Word vector, and return the index in the vector.
+	   
 	}
 	
          
